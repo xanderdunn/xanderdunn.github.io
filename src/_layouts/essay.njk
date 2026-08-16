@@ -1,0 +1,14 @@
+---
+layout: base.njk
+---
+<main class="essay">
+  <header class="essay-header">
+    <a class="home-link" href="/">xander.ai</a>
+    <h1>{{ title }}</h1>
+    {% if description %}<p class="dek">{{ description }}</p>{% endif %}
+    <p class="byline"><strong>{{ author }}{% if displayDate %}, {{ displayDate }}{% endif %}</strong></p>
+  </header>
+  <article class="prose">
+    {{ content | safe }}
+  </article>
+</main>
