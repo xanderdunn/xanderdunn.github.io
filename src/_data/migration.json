@@ -1,0 +1,96 @@
+{
+  "source": "https://xander.ai",
+  "profileImage": "/assets/home/68c79c148a596f31bdb591c9_0S5A3082-69edc990.jpg",
+  "pages": [
+    {
+      "slug": "agi-non-fiction",
+      "title": "AGI Non-Fiction",
+      "date": "2023-01-30",
+      "description": "Some of the AGI-related non-fiction I've found interesting and useful."
+    },
+    {
+      "slug": "agi-sci-fi",
+      "title": "AGI Sci Fi",
+      "date": "2023-01-22",
+      "description": "All of the AGI-related science fiction I've found fun, interesting, enlightening, inspiring, and maybe even challenging."
+    },
+    {
+      "slug": "getting-up-to-speed-on-llms-and-agi",
+      "title": "Getting Up to Speed on LLMs and AGI",
+      "date": "2023-01-16",
+      "description": "All of the podcast episodes and videos I went through to gain a mental map of the field."
+    },
+    {
+      "slug": "human-popsicle",
+      "title": "Human Popsicle",
+      "date": "2024-01-31",
+      "description": "I'm going to be a human popsicle! What might that entail?"
+    },
+    {
+      "slug": "llms-the-important-ingredients",
+      "title": "LLMs: The Important Ingredients",
+      "date": "2023-01-27",
+      "description": "An overview of the pieces coming together to make LLMs work."
+    },
+    {
+      "slug": "on-attachment",
+      "title": "On Attachment",
+      "date": "2025-08-08",
+      "description": "A Not so Great Experience with IPF"
+    },
+    {
+      "slug": "on-changing",
+      "title": "On Changing",
+      "date": "2025-12-31",
+      "description": "Nobody changes. Except..."
+    },
+    {
+      "slug": "on-dark-triads-in-silicon-valley",
+      "title": "On Dark Triads in Silicon Valley",
+      "date": "2023-02-19",
+      "description": "The most overlooked skill for technical people is the ability to spot and avoid Dark Triad personalities."
+    },
+    {
+      "slug": "open-directions-in-ai",
+      "title": "Open Directions in AI / What's Missing from AI",
+      "date": "2025-03-19",
+      "description": "An overview of some missing capabilities from current frontier models"
+    },
+    {
+      "slug": "robotics-and-the-bitter-lesson",
+      "title": "Robotics and the Bitter Lesson",
+      "date": "2024-01-01",
+      "description": "Deep learning + robotics hasn't lived up to its promise since 2015, but this time might be different."
+    },
+    {
+      "slug": "security-of-software-1-0-vs-2-0",
+      "title": "Security of Software 1.0 vs 2.0",
+      "date": "2023-02-04",
+      "description": "Traditional software security paradigms applied to deep learning"
+    },
+    {
+      "slug": "starfield-review",
+      "title": "Starfield Review",
+      "date": "2023-09-10",
+      "description": "I beat the game on hardest difficulty from Sept 4-10."
+    },
+    {
+      "slug": "the-truth-syrup-on-software-bio",
+      "title": "Software Engineers Meet Bio",
+      "date": "2023-08-05",
+      "description": "Someone set out to found the company I founded in 2018 - this is the advice I gave them."
+    },
+    {
+      "slug": "thoughts-on-ai-training-infrastructure",
+      "title": "Thoughts on AI Training Infrastructure",
+      "date": "2024-01-31",
+      "description": "Thoughts from successful training on a cluster of 8,000 hardware accelerators."
+    },
+    {
+      "slug": "worse-really-is-better",
+      "title": "Worse Really is Better",
+      "date": "2024-03-19",
+      "description": "On outcomes over nerd snipes."
+    }
+  ]
+}
