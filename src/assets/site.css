@@ -45,7 +45,7 @@ a:hover { text-decoration-thickness: 2px; }
   display: block;
   height: auto;
   margin: 0 auto;
-  max-width: 760px;
+  max-width: 640px;
   object-fit: cover;
   width: 100%;
 }
@@ -72,7 +72,7 @@ a:hover { text-decoration-thickness: 2px; }
 }
 
 .essay h1 {
-  font-size: clamp(2.35rem, 7vw, 3.5rem);
+  font-size: clamp(2rem, 5vw, 2.8rem);
   letter-spacing: -0.035em;
   line-height: 1.04;
   margin: 0;
