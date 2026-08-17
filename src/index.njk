@@ -1,0 +1,42 @@
+---
+layout: base.njk
+title: Xander Dunn
+description: Xander Dunn personal homepage and essays.
+---
+<main class="home">
+  <h1>Xander Dunn</h1>
+  <img class="portrait" src="{{ migration.profileImage }}" alt="Xander Dunn" width="1500" height="1000">
+
+  <section class="home-copy prose">
+    <p>I'm an engineer working on deep learning.</p>
+    <ul>
+      <li><a href="https://github.com/xanderdunn">GitHub</a></li>
+      <li>A good way to see what I've been up to recently is to <a href="https://github.com/search?q=author%3Axanderdunn&amp;type=issues&amp;s=created&amp;o=desc">look at what I'm doing on GitHub</a>.</li>
+      <li><a href="https://x.com/xanderai">X</a></li>
+      <li><a href="mailto:xander@xander.ai">Email</a></li>
+    </ul>
+
+    <h2>Work</h2>
+    <ul>
+      <li>2025–Present: Building an AI scientist at <a href="https://periodic.com/">Periodic Labs</a></li>
+      <li>2023–24: Implemented <a href="https://docs.google.com/presentation/d/13mX0gEpC6gdQWCFdn_d4LUBoTE1T7CipBDqz6exKDWI/edit?usp=sharing">large-scale pre-training infrastructure in Rust</a>, pre-trained distributed Transformer foundation models across 8,000 GPUs and TRNs. Data, tensor, pipeline, and expert parallelism. Applying to LLM self-play and self-improvement with code generation.</li>
+      <li>2020–21: Fine-tuned GPT and BERT models and applied Secret Sharer to characterize unintended memorization</li>
+      <li>2019–20: Applied WaveNets to time-series forecasting on trillions of rows of streaming music metadata</li>
+      <li>2017–18: Extended GANs for “homomorphic encryption” (signal-preserving obfuscation)</li>
+      <li>2015–16: Engineered deep reinforcement learning for industrial robotics with imitation learning</li>
+    </ul>
+    <p>I'm additionally interested in information theory, security (vulnerabilities, <a href="https://github.com/xanderdunn/polygon_hack_repro">exploits</a>), and trees (the plant kind, not the balanced kind). I think Moravec's Paradox and the Bitter Lesson are two of the most important empirical realizations in AI.</p>
+
+    <h2>Essays</h2>
+    <ul>
+      {% for essay in collections.essays | reverse %}
+        <li><a href="{{ essay.url }}">{{ essay.data.title }}</a>{% if essay.data.displayDate %} <span class="essay-date">{{ essay.data.displayDate }}</span>{% endif %}</li>
+      {% endfor %}
+    </ul>
+
+    <h2>Videos</h2>
+    <ul>
+      <li>2023: <a href="https://drive.google.com/file/d/1KpBjboIDy-pFbzj3s1UpnZKJCVyfz0x7/view?usp=sharing">Offensive and Defensive Uses of Code LLMs</a> (<a href="https://docs.google.com/presentation/d/1XSxPfZpo_9h2G6ICYYf6BuMhBjQbAAtuAw_hRz94huY/edit?usp=sharing">slides</a>)</li>
+    </ul>
+  </section>
+</main>
