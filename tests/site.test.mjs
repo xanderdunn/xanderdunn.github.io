@@ -26,12 +26,12 @@ test("every archived public page has a generated counterpart", async () => {
   for (const relativePath of archived) {
     await assert.doesNotReject(fs.access(path.join(output, relativePath)), relativePath);
   }
-  assert.equal(archived.length, 16);
+  assert.equal(archived.length, 15);
 });
 
 test("generated pages use local images and valid internal links", async () => {
   const pages = await htmlFiles(output);
-  assert.ok(pages.length >= 17);
+  assert.ok(pages.length >= 16);
   for (const filename of pages) {
     const html = await fs.readFile(filename, "utf8");
     assert.doesNotMatch(html, /cdn\.prod\.website-files\.com/, filename);

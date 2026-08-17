@@ -35,7 +35,7 @@ a:hover { text-decoration-thickness: 2px; }
 }
 
 .home > h1 {
-  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-size: clamp(2.15rem, 4vw, 3rem);
   line-height: 1.05;
   margin: 0 0 2.5rem;
 }
@@ -110,6 +110,8 @@ a:hover { text-decoration-thickness: 2px; }
 
 .prose li + li { margin-top: 0.55rem; }
 
+.home-copy li + li { margin-top: 0.15rem; }
+
 .prose blockquote:not(.twitter-tweet) {
   border-left: 6px solid var(--rule);
   font-size: 1.08rem;
@@ -162,6 +164,16 @@ figcaption {
   font-size: 0.88rem;
   margin-left: 0.35rem;
   white-space: nowrap;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --ink: #d6d6d7;
+    --muted: #a5a5a8;
+    --rule: #45474b;
+    --page: #1d1f21;
+  }
 }
 
 @media (max-width: 640px) {
